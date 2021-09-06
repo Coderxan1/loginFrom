@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="form_cont">
+        <form action="" class="form" id="userFrom" autocomplete="off">
+            <div class="dets">
+                <div class="image">
+                    <img src="./images/team.png" alt="image">
+                </div>
+                <h2>Login Form</h2>
+            </div>
+
+            <div class="input_div">
+                <input type="text" name="username" id="username" placeholder="username" minlength="5" maxlength="12">
+            </div>
+
+            <div class="input_div">
+                <input type="password" name="password" id="userpass" placeholder="password" minlength="10" maxlength="12">
+            </div>
+
+            <input type="submit" value="Login" class="btn-login" id="loginBtn">
+
+            <div class="dets2">
+                <a href="#">forgot password?</a>
+                <a href="#">sign up</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="alert">
+        <img src="./images/checked.png" alt="img" id="alert_img">
+        <span id="alert_dets">Successful login</span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
